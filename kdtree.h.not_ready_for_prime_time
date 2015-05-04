@@ -1,0 +1,24 @@
+        /**
+        @param q, qd -> rank(1) numpy array
+        
+        from Python: kdtree.knn([], k, k2, eps=0.0)
+        
+        see ANN documentation for parameter roles.
+        */
+        /*     
+        void knnPri(double* q, int qd, int k, int* nn_idx, int k2, int* dd, double eps=0.0) {
+            tree->annkPriSearch(q, k, nn_idx, dd, eps);
+        }
+        */
+        
+        /**
+        @param q, qd -> rank(1) numpy array
+        
+        from Python: kdtree.knn([], sqRad, k, k2, eps=0.0)
+        */
+        
+        /*
+        int annkFRSearch(ANNpoint q, int qd, ANNdist sqRad, int  k, ANNidxArray  nn_idx = NULL, int k2, ANNdistArray dd = NULL, double eps=0.0) {
+           tree->annkFRSearch(q, sqRad, k, nn_idx, dd, eps);
+        }
+        */
