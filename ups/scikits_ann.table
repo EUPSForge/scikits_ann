@@ -1,0 +1,4 @@
+setupRequired(swig)
+setupRequired(ann)
+
+envPrepend(PYTHONPATH, ${PRODUCT_DIR}/lib/python)
