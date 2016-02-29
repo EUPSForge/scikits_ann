@@ -1,0 +1,31 @@
+package:
+  name: scikits-ann
+  version: 0.0.1
+
+source:
+  fn: scikits-ann-v0.0.1.tar.gz
+  url: https://github.com/EUPSForge/scikits_ann/archive/v0.0.1.tar.gz
+  md5: bf09a96c80aca8ee53070dd25ac24469
+
+requirements:
+  build:
+    - python 2.7.*
+    - numpy ==1.9
+    - swig ==3.0.2
+    - ann
+    - configobj
+  run:
+    - python 2.7.*
+    - numpy >=1.9
+
+test:
+  # Python imports
+  imports:
+    - scikits.ann
+    - scikits.ann.ANN
+    - scikits.ann.info
+    - scikits.ann.setup
+    - scikits.ann.version
+
+about:
+  home: https://github.com/EUPSForge/scikits_ann
